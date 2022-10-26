@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.AI;
 
+
+
+
 public class LevelBuilder : MonoBehaviour
 {
     [SerializeField] private GameObject WallsParent;
@@ -40,7 +43,7 @@ public class LevelBuilder : MonoBehaviour
 
         }
 
-        NavMeshBuilder.ClearAllNavMeshes();       
+        NavMeshBuilder.ClearAllNavMeshes();
         NavMeshBuilder.BuildNavMesh();
     }
 
