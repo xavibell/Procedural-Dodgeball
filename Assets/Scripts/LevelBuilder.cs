@@ -12,6 +12,14 @@ public class LevelBuilder : MonoBehaviour
     [SerializeField] Material wallMaterial;
     // Start is called before the first frame update
 
+
+
+
+    private void Start()
+    {
+        BuildLevel();
+    }
+
     [ContextMenu("Build Level")]
     void BuildLevel()
     {
